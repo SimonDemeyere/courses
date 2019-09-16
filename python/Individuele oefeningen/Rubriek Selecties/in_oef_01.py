@@ -1,6 +1,6 @@
 # Oefening 1
 
-leeftijdGebruiker = int(print("Geef je leeftijd in:"))
+leeftijdGebruiker = int(input("Geef je leeftijd in:"))
 
 if (leeftijdGebruiker < 18):
 	print("Om  deel  te  nemen  aan  de  spelen  van  de Nationale Loterij moet je minimum 18 jaar oud zijn.")

@@ -5,7 +5,7 @@ huidigJaar = int(input("Geef het huidige jaartal in:"))
 
 verschilJaartal = huidigJaar - geboorteJaar
 
-if (verschilJaartal <= 0):
+if (verschilJaartal < 0):
 	print("Een getal onder 0 is niet mogelijk.")
 else:
 	if (verschilJaartal >= 18):

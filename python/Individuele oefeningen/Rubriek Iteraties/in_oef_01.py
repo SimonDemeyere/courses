@@ -6,7 +6,6 @@ som = 0
 for i in range(aantalNummers):
 	testGetal = int(input("Getal " + str(i+1) + ": "))
 	som = som + testGetal
-	
  
-print(som)  
+print(som)
 

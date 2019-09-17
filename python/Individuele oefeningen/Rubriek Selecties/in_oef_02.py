@@ -1,7 +1,5 @@
 # Oefening 2
 
-# Oefening 1
-
 leeftijdGebruiker = int(input("Geef je leeftijd in:"))
 aantalBulletinVakjes = 0
 

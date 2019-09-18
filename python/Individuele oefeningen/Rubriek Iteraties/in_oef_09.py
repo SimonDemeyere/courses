@@ -1,12 +1,7 @@
 getal = int(input("Geef een getal"))
 
-if (getal > 2):
-	for i in range(2, getal):
-		if (getal % i == 0):
-			print(getal,"is not a prime number")
-           	print(i,"times",getal//i,"is",getal)
-           	break
-	else:
-		print(getal)
-else:
-   print(getal,"is not a prime number")
+print(2)
+print(3)
+for i in range(3, getal):
+	if (i % 2 != 0 and i % 3 != 0 and i % 5 != 0 and i % 7 != 0):
+		print(i)

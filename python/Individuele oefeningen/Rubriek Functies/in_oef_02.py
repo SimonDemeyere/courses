@@ -6,9 +6,6 @@ year = int(input("Geef jaartal"))
 # 	if (year % 400 == 0):
 # 		print(year, "is een schrikkeljaar")
 			
-		
-	
-
 # checkSchrikkeljaar(year)
 
 def leap_year(year):

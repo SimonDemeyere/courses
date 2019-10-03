@@ -1,3 +1,5 @@
+#Opdracht 2
+
 s = input("Geef een zin:")
 editS = s
 

@@ -1,0 +1,26 @@
+#external {
+    color: #E74C3C;
+    font-size: 100px;
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    text-align: center;
+    line-height: 20px;
+}
+.internalc {
+    color: #16A085;
+    font-size: 100px;
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    text-align: center;
+    line-height: 20px;
+}
+
+.nieuwelement {
+    background: yellowgreen;
+    color: white;
+    width: 200px;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}

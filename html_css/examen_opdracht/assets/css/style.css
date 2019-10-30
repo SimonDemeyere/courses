@@ -1,0 +1,190 @@
+/**BEGIN GENERAL CLASSES**/
+*{
+    box-sizing: border-box;
+  }
+  .d-flex{
+      display:flex;
+  }
+  .flex-column{
+      flex-direction:column;
+  }
+  .flex-row{
+      flex-direction:row;
+  }
+  /*centreren van children binnen de parent*/
+  .justify-content-end{
+      justify-content:flex-end;
+  }
+  .justify-content-center{
+      justify-content:center;
+  }
+  .justify-content-between{
+    justify-content:space-between;
+  }
+  .justify-content-around{
+    justify-content:space-around;
+  }
+  .flex-wrap{
+    flex-wrap:wrap;
+  }
+  .flex-nowrap{
+    flex-wrap:nowrap;
+  }
+  .flex-grow-1{
+    flex-grow: 1;
+  }
+  /*children centreren zichzelf tov de parent*/
+  .align-items-center{
+      align-items:center;
+  }
+  
+  .w-25{
+      width:25%;
+  }
+  .w-50{
+      width:50%;
+  }
+  .w-75{
+      width:75%;
+  }
+  .w-100{
+    width:100%;
+  }
+  
+  /*- Typography -*/
+  .upper{
+      text-transform: uppercase;
+  }
+  .lower{
+      text-transform: lowercase;
+  }
+  .capital{
+     text-transform: capitalize;
+  }
+  
+  
+  /**EINDE GENERAL CLASSES**/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+  /**BEGIN WEBSITE**/
+body {
+     width: 1920px;
+     font-family: 'Open Sans', sans-serif;
+     margin: 0 auto;
+}
+
+#bgheader {
+    height: 800px;
+    background: url('../img/background.png') no-repeat;
+}
+
+nav {
+    height: 148px;
+    width: 100%;
+    background: rgba(53, 63, 70, 0.85);
+}
+
+#brandnav, .servicescontent, #defaultcontent {
+    width: 1175px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+#brandnav {
+    font-weight: 700;
+}
+
+#brandnav a:not(:last-child) {
+    margin-right: 9px;
+}
+
+#brandnav p {
+    font-size: 30px;
+}
+
+#brandnav p span {
+    color: #4bb1dd;
+}
+
+#brandnav ul {
+    list-style: none;
+}
+
+#brandnav ul a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 12px 18px;
+}
+
+#brandnav ul a:hover {
+    border: 2px solid #4bb1dd;
+}
+
+#slidertekst {
+    height: 652px;
+    text-align: center;
+}
+
+#slidertekst p {
+    font-size: 42px;
+    color: #FFF;
+    font-weight: 300;
+    background-color: rgba(53, 63, 70, 0.85);
+    margin-bottom: 0px;
+}
+
+#title {
+    margin-top: 0px;
+}
+
+#h1home {
+    display: none;
+}
+
+#services {
+    height: 404px;
+    background: #4BB1DD;
+    font-weight: 700;
+    padding-bottom: 80px;
+}
+
+#services h2, #default h2 {
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.servicescontent {
+    height: 250px;
+}
+
+.divider {
+    border-bottom: 1px solid #FFF;
+    height:1px;
+    width: 50px;
+}
+
+#servicesarticles {
+    margin-top: 40px;
+}
+
+#servicesarticles article p {
+    padding-right: 30px;
+}
+
+#default {
+    height: 583px;
+    background: rgba(53, 63, 70, 0.85);
+}
+
+#default h2 {
+    color: #FFF;
+    margin-left: 25px;
+}
+
+#defaultcontent {
+    height: 350px
+}

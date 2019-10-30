@@ -116,9 +116,10 @@ nav ul a {
     text-align: center;
     margin-bottom: 100px;
     height: 290px;
-    display:table-cell;
-    vertical-align:middle;
     position: relative;
+    flex: 0 1 100vw;
+    right: 50vh;
+    margin-right: -50vw;
 }
 
 #newsletter h2{
@@ -137,10 +138,8 @@ nav ul a {
 }
 
 #newsletter img {
-    position: absolute;
     width: 20px;
     top: 184px;
-    right: 260px;
 }
 #newsletter input:focus {
     outline: none;

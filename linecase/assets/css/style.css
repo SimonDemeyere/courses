@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Sintony:400,700&display=swap'); /* SINTON */
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+body {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+#banner {
+    height: 645px;
+    background: url('../img/Shape\ 22.png') no-repeat;
+}
+
+#headercontent {
+    width: 945px;
+    margin: 0 auto;
+}
+
+#illustrator {
+    margin-top: 140px;
+    margin-bottom: 40px;
+}
+
+#linecase {
+    margin-top: 40px;
+}
+
+#dude {
+    margin-top: 30px;
+}
+
+#headercontentleft p {
+    color: rgba(255,255,255, 0.5);
+    font-style: italic;
+    font-size: 20px;
+    width: 465;
+}
+
+h1 {
+    display: none;
+}
+
+h2 {
+    font-family: 'Sintony', sans-serif;
+    font-size: 30px;
+    color: #ff006a;
+    font-weight: 100;
+}
+
+#illustrativeworks {
+    margin-left: 275px;
+}
+
+.kader {
+    width: 190px;
+    height: 160px;
+    background-color: #ff006a;
+    margin-right: 15px;
+
+}

@@ -1,0 +1,417 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Kanit:700,800,900&display=swap'); /* KANIT */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap'); /* JOSEFIN SLAB */
+
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+#banner {
+    background: linear-gradient(0deg,rgba(0, 255, 255,0.15),rgba(0, 255, 255,0.15)), url('../img/Zebra.png');
+    height: 655px;
+    overflow: hidden;
+}
+
+#banner nav {
+    justify-items: center;
+    height: 85px;
+    background-color: rgba(255,255,255,0.9);
+    box-shadow: 0px 6px 26px -6px rgba(0,0,0,0.76);
+    z-index: 2;
+}
+
+#brand {
+    font-weight: 600;
+    font-size: 38px;
+    color: #626262;
+    margin: auto 0;
+    margin-left: 150px;
+}
+
+#main-nav {
+    margin: auto 0;
+    list-style: none;
+    width: 390px;
+    justify-content: space-between;
+    margin-left: 210px;
+    padding-left: 0;
+    display: flex;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #626262;
+    font-size: 18px;
+    padding: 31px 16px;
+}
+
+header nav ul li a:hover {
+    border-bottom: 0.5px solid white;
+    background-color: rgb(207, 26, 43);
+    color: white;
+}
+
+#brand span {
+    color: #06b5a9;
+}
+
+#shopcart {
+    margin: auto 0;
+    justify-content: end;
+    width: 140px;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #626262;
+    margin-left: 120px;
+}
+
+#shopcart i {
+    align-self: center;
+}
+
+
+.block {
+    width: 200px;
+}
+
+.block:first-child {
+    border-right: 0.5px solid #FFF;
+}
+
+.block:last-child {
+    border-left: 0.5px solid #FFF;
+}
+
+
+.navbrand {
+    font-weight: 600;
+    font-size: 38px;
+    color: #FFF;
+    margin: auto 0;
+    text-align: center;
+    border-bottom: 0.5px solid white;
+    padding: 15px;
+}
+
+.navbrand span {
+    color: #fec8cd;
+}
+
+#dropdown-block-1 {
+    width: 215px;
+}
+
+#dropdown-block-1 img {
+    display: block;
+    margin: 33px auto;
+}
+
+#dropdown {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+  }  
+
+#dropbtn {
+  padding: 31px 16px;
+  font-size: 18px;
+  border: none;
+}
+
+#dropdown-content {
+  display: none;
+  margin-top: 31px;
+  position: absolute;
+  background-color: rgb(207, 26, 43);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+#dropdown-content a {
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  color: #FFF;
+  margin: 0 20px;
+}
+
+#dropdown-content a:first-child {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#dropdown-content a:hover {
+    border: none;
+    background-color: rgb(170, 26, 43);
+}
+
+#dropbtn:hover {
+    background-color: rgb(207, 26, 43);
+    color: white;
+}
+
+#dropdown:hover #dropdown-content {
+    display: flex;
+}
+
+#sub-title {
+    margin-top: 250px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    letter-spacing: 40px;
+    margin-left: 30px;
+    text-shadow: 0px 0px 10px black;
+}
+
+#main-title {
+    text-align: center;
+    line-height: 50px;
+    font-size: 116px;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    text-shadow: 0px 0px 10px black;
+}
+
+#reclame {
+    display: flex;
+    margin: 50px 128px;
+    justify-content: space-between;
+    color: white;
+}
+
+.rec-bl {
+    width: 245px;
+    height: 250px;
+    position: relative;
+}
+
+.rec-bl header {
+    margin-top: 20px;
+    margin-left: 25px;
+    height: 150px;
+}
+
+.rec-bl header p {
+    width: 40%;
+    font-weight: 600;
+}
+
+.rec-bl img {
+    position: absolute;
+}
+
+.price {
+    font-size: 50px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.3);
+    margin: 0px 20px;
+}
+
+#rec-bl-1 {
+    background-color: #58dbd3;
+}
+
+#rec-bl-1 img {
+    top: 5px;
+    right: 0;
+}
+
+#rec-bl-2 {
+    background-color: #e4ce9a;
+}
+
+#rec-bl-3 {
+    background-color: #ffa7ce;
+}
+
+#rec-bl-2 img, #rec-bl-3 img {
+    bottom: 0;
+    right: 0;
+}
+
+#rec-bl-4 {
+    background-color: #f2ca66;
+}
+
+#rec-bl-4 header {
+    margin: 0;
+    text-align: center;
+    margin: 35px 0 0 0;
+}
+
+#rec-bl-4 header p {
+    font-size: 60px;
+    line-height: 0;
+    margin-top: 70px;
+    width: 100%;
+}
+
+#rec-bl-4 header h2{
+    font-size: 100px;
+    line-height: 50px;
+    margin: 0;
+    transform: scale(1, -1);
+}
+
+#quote {
+    background-color: #FFF;
+    color: #f2ca66;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 0 15px;
+    width: 115px;
+}
+
+#categories {
+    background: linear-gradient(0deg,rgba(64, 6, 181,0.36),rgba(64, 6, 181,0.36)), url('../img/zebra2.png') no-repeat center top;
+    background-size: cover;
+    height: 560px;
+    overflow: hidden;
+}
+
+#categories header h2 {
+    font-size: 116px;
+    color: #FFF;
+    font-family: 'Josefin Slab';
+    margin-top: 65px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.circle:nth-child(odd) {
+    margin-top: 35px;
+}
+
+.circle1 {
+    background: rgba(88, 219, 211, 0.50);
+}
+
+.circle2 {
+    background: rgba(88, 219, 211, 0.80);
+}
+
+#container-circle {
+    position: relative;
+    width: 100%;
+    height: 335px;
+    margin-left: -150px;
+    margin-top: 25px;
+}
+
+#circle-row1 {
+    display: flex;
+    margin-left: 165px;
+    position: absolute;
+}
+
+#circle-row2 {
+    display: flex;
+    padding-top: 40px;
+    position: absolute;
+}
+
+#product {
+    width: 1024px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+#product header img {
+    margin-top: -16px;
+    width: 375px;
+}
+
+#product h2 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+#product p {
+    font-size: 14px;
+}
+
+#productcontent {
+    width: 50%;
+}
+
+#productcontent div button{
+    width: 200px;
+    height: 50px;
+    color: #FFF;
+    background-color: #d62132;
+    border: none;
+    font-size: 28px;
+}
+
+#productcontent div button img {
+    width: 30px;
+}
+
+#productcontent #price {
+    font-size: 36px;
+}
+
+#productimg {
+    width: 50%;
+}
+
+#productimg img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#productrelated {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+#productrelated article {
+
+}
+
+#productrelated img {
+    width: 182px;
+    border: 1px solid grey;
+}
+
+#productrelated img:hover {
+    border: 1px solid #a50716;
+}

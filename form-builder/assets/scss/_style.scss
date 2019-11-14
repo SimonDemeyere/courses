@@ -1,0 +1,37 @@
+// Colors
+$color-salmon: #F87060;
+$color-dark: #2D2A32;
+$color-light: #FBFCFF;
+
+#container-blocks {
+  margin-top: 200px;
+
+  #form-block {
+    background-color: $color-light;
+    height: 400px;
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+  }
+
+  #code-block {
+    background-color: $color-dark;
+    height: 400px;
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+
+    #code-styling {
+      color: $color-light;
+    }
+  }
+
+
+}
+
+
+
+
+

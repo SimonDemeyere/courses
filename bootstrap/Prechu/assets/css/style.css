@@ -1,0 +1,32 @@
+body {
+    /*margin: 0 auto;*/
+}
+
+#navbar {
+    height: 90px;
+}
+
+.navbar-brand {
+    font-size: 42px;
+    color: #000;
+}
+
+.carousel-item {
+    height: 480px;
+}
+
+.bol {
+    text-align: center;
+}
+
+#basket {
+    text-align: center;
+}
+
+#basket img {
+    width: 200px;
+}
+
+#basket-typo-span {
+    font-size: 28px;
+}

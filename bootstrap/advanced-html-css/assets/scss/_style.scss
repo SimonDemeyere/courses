@@ -1,0 +1,18 @@
+$color-salmon: #F87060;
+
+.tekst {
+  color: $color-salmon;
+}
+
+
+/**MIXINS**/
+@mixin set-font($family: 'Helvetica', $weight: 400, $style: italic) {
+  font-family: $family, 'sans-serif';
+  font: $style;
+  weight: $weight;
+}
+
+h1 {
+  @include set-font();
+  color: $color-salmon;
+}
